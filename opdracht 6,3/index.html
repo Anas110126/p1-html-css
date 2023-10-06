@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>opdracht 6,3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh; 
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between; 
+        }
+
+        .logo,
+        .login,
+        .nav-links {
+            flex: 1; 
+            padding: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Logo</h1>
+        <p>Login</p>
+    </header>
+
+    <nav>
+        <div class="logo">Logo</div>
+        <div class="login">Login</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">about me</a>
+            <a href="#">my projects</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+</body>
+</html>
